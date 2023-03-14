@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <title>Portfolio website complete</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt="Your Logo" class="logo"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span
+                        class="home__title-color">Praveen</span><br>Systemadministrator</h1>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/praveen-suresh-a3b4865b/" class="home__social-icon"
+                    target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.xing.com/profile/Praveen_Suresh/cv" class="home__social-icon" target="_blank"><i
+                        class="fab fa-xing"></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Ich bin Praveen</h2>
+                    <p align="justify" class="about__text">I'm an experienced IT Administration professional with
+                        expertise in managing IT administration,
+                        virtualizing, application management, web development, database management, and
+                        ERP.
+                        I approach challenges with a positive attitude and continuously strive for improvement.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Profesional Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='fas fa-database' style="color: #d41a23;"></i>
+                            <span class="skills__name">Database Management</span>
+                            <i id="skills_Space" class="fas fa-cog" style="color: #6c757d;"></i>
+                            <span class="skills__name">System Administration</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fas fa-server" style="color: #fd7e14;"></i>
+                            <span class="skills__name">Microsoft Windows Server</span>
+                            <i id="skills_Space" class="fas fa-cube" style="color: #b44f20;"></i>
+                            <span class="skills__name">Virtualization</span>
+                            <i id="skills_Space" class="fab fa-docker" style="color: #0db7ed;"></i>
+                            <span class="skills__name">Docker</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='fas fa-cubes' style="color: #007bff;"></i>
+                            <span class="skills__name">Enterprise resource Planning</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='fab fa-microsoft' style="color: #e01e18;"></i>
+                            <span class="skills__name">Microsoft Office 365 Administration</span>
+                            <i id="skills_Space" class="fab fa-microsoft" style="color: #121061;"></i>
+                            <span class="skills__name">Azure AD</span>
+                            <i id="skills_Space" class="fas fa-exchange-alt" style="color: #262e96;"></i>
+                            <span class="skills__name">Exchange Server</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fab fa-windows" style="color: blue;"></i>
+                            <span class="skills__name">Windows</span>
+                            <i id="skills_Space" class="fab fa-apple" style="color: #A8B6C8;"></i>
+                            <span class="skills__name">macOS</span>
+                            <i id="skills_Space" class="fab fa-linux" style="color: #FCC624;"></i>
+                            <span class="skills__name">Linux</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fas fa-network-wired" style="color: #007bff;"></i>
+                            <span class="skills__name">Networking</span>
+                            <i id="skills_Space" class="fab fa-html5" style="color: #e34f26;"></i>
+                            <span class="skills__name">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="work__container bd-grid">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <a href="" class="work__img"></a>
+                            <img src="assets/img/work1.jpg" alt="Your Image">
+                        </div>
+                        <div class="back">
+                            <h4>IT Application Manager and Systemadministrator</h4>
+                            <p class="company">Bucher Hydraulics GmbH</p>
+                            <p class="position">October 2019 - Present</p>
+                            <hr>
+                            <p align="justify" class="description">I work with ERP systems and IT administration. I use
+                                a variety of technologies in my daily work, which I find both challenging and enjoyable.
+                                I always approach my tasks positively and strive to find the best solutions, which makes
+                                me optimistic about my future in this field.</p>
+                            <hr>
+                            <p class="skills">Skills: ERP, Oracle Database, Office 365 Administration, Windows Server &
+                                Virtualization</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <a href="" class="work__img"></a>
+                            <img src="assets/img/work2.jpg" alt="Your Image">
+                        </div>
+                        <div class="back">
+                            <h4>Web Developer</h4>
+                            <p class="company">Masters of Arts Anwendungsentwicklung GmbH</p>
+                            <p class="position">July 2018- March 2021</p>
+                            <hr>
+                            <p class="description">Experience as a Web developer with a focus on both front-end and
+                                back-end development</p>
+                            <hr>
+                            <p class="skills">Skills: C#, ASP.NET MVC, Git, Web Development, SQL Server Management
+                                Studio, Windows Server, Network Protocols</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <a href="" class="work__img"></a>
+                            <img src="assets/img/work4.jpg" alt="Your Image">
+                        </div>
+                        <div class="back">
+                            <h4>Internship</h4>
+                            <p class="company">HCL Development Center</p>
+                            <p class="position">May 2012</p>
+                            <hr>
+                            <p class="description">comprehensive training in a range of technology fields, including
+                                hardware, networking, system administration, and cloud computing</p>
+                            <hr>
+                            <p class="skills">Skills: System Administration, Cloud Computing, Networking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--===== FOOTER =====-->
+    <footer id="footer" class="footer">
+        <p class="footer__title">Contact me</p>
+        <div class="contact-details">
+            <div class="contact-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Spitalweg 8, 79761 Waldshut-Tiengen, Germany</p>
+            </div><br><br>
+            <div class="contact-info">
+                <i class="fas fa-phone"></i>
+                <span>+4917643359773</span>
+            </div>
+            <div class="contact-info">
+                <i class="fas fa-envelope"></i>
+                <span>suresh.praveen90@gmail.com</span>
+            </div><br><br>
+        </div>
+        <div class="contact-details">
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/praveen-suresh-a3b4865b/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.xing.com/profile/Praveen_Suresh/cv" target="_blank"><i class="fab fa-xing"></i></a>
+            </div>
+        </div>
+        <br>
+        <p class="footer__copy">&#169; All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
